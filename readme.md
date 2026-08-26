@@ -2,7 +2,7 @@
 
 # Ohjelmisto 1 - Python harjoitukset
 
-**Oma Nimeni**
+Jonatan
 
 ## Moduuli 1
 
