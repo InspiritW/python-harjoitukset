@@ -6,4 +6,4 @@ Jonatan
 
 ## Moduuli 1
 
-Tein tehtävät 1 ja 2.
+Tein moduuli1 folderin ja tein hello.py filin.
