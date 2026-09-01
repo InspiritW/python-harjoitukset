@@ -18,3 +18,8 @@ __pycache__/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Concept learning notes (personal study material, not graded exercises)
+# these live inline in each moduuliN/ folder as 00_concept_*.py / *_concept_*.py
+**/*concept*.py
+HOW_TO_USE_THIS.md
