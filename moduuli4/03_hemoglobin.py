@@ -25,3 +25,24 @@
 #
 # Tip: this is basically the same shape as fish.py and 2.py (if/elif/else),
 # just with an extra layer because there are two different ranges.
+# 16:34 10.09.26
+gender = input("What is your gender? female/male ")
+hemoglobin = input("What is your hemoglobin value? ")
+gendervalue = gender
+hemovalue = int(hemoglobin)
+if gender == "female" and hemovalue < 117:
+    print("Low")
+elif gender == "female" and hemovalue > 155:
+    print("High")
+elif gender == "male" and hemovalue < 134:
+    print("Low")
+elif gender == "male" and hemovalue > 167:
+    print("High")
+elif gender == "female" and hemovalue >= 117 and hemovalue <= 155:
+    print("Normal")
+elif gender == "male" and hemovalue >= 134 and hemovalue <= 167:
+    print("Normal")
+else:
+    print("Error: Gender wasn't recognized ")
+
+
