@@ -5,7 +5,7 @@
 # a DICTIONARY, and lets the user add new airports or look one up.
 #
 # Steps:
-# 1. Make an empty dictionary: airports = {}
+# 1. Make an empty dictionary
 # 2. Start a while loop (while True:) — this is your menu loop.
 # 3. Print the menu options and ask what the user wants to do, e.g.
 #    "1. Add airport   2. Find airport   3. Quit"

@@ -1,0 +1,7 @@
+How to play:
+- Play opens the next riddle that you have not solved yet.
+- During a riddle you can type 'hint' if you want help.
+- Solving a riddle without a hint earns 3 coins. With a hint you earn 1 coin.
+- Shop sells potions for coins.
+- Inventory shows the potions you own.
+- Quit saves your game, so you can continue later.

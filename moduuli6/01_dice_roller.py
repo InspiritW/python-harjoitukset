@@ -12,3 +12,11 @@
 #      for i in range(number_of_dice):
 #    Inside it: roll one die (random.randint(1, 6)) and add it to total.
 # 5. After the loop: print the total.
+#11:06 14.09.2026   
+import random
+howmany = int(input("How many dice to roll? "))
+total = 0
+for i in range(howmany):
+    roll_dice = (random.randint(1, 6))
+    total += roll_dice
+print(total)

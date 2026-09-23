@@ -15,3 +15,19 @@
 #      - guess too high -> print "Too high"
 #      - guess too low  -> print "Too low"
 #      - guess correct  -> print "Correct" and end the loop
+#12:18 11.09.2026
+import random
+number = random.randint(1, 10)
+while True:
+    ask_user = int(input("Guess the number! "))
+    if ask_user not in range(1,10):
+            print("the number is between 1-10.")
+    elif ask_user > number:
+        print("Too High!")
+    elif ask_user < number:
+        print("Too Low!")
+    else:
+        print("Correct!")
+        break
+
+

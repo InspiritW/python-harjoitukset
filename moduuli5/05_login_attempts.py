@@ -20,3 +20,19 @@
 #    Hint: you'll need a way to know WHY the loop ended (ran out of
 #    attempts vs. got it right) — a boolean flag variable can help here,
 #    e.g. logged_in = False, set to True when the login succeeds.
+#12:28 11.09.2026
+counter = 0
+logged_in = None
+while True:
+    username = str(input("Enter a Username "))
+    password = str(input("Enter a password "))
+    if username == "python" and password == "rules":
+        print("Welcome!")
+        logged_in = True
+        break
+    else:
+        print("Access Denied!")
+        counter += 1
+    if counter == 5:
+        print("Too many attempts! Try again later.")
+        break

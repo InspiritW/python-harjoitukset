@@ -5,7 +5,7 @@
 # then print them back out one by one (using a different for loop).
 #
 # Steps:
-# 1. Make an empty list, e.g. cities = []
+# 1. Make an empty list
 # 2. Use a for loop that runs exactly 5 times to ask for a city name each
 #    time, and append() each answer to the list.
 #      for i in range(5):
