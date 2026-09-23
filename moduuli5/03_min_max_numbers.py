@@ -20,3 +20,18 @@
 #
 # Watch out: what happens on the very FIRST number, when you don't have
 # a "smallest so far" yet? Think about how you'd handle that.
+#12:08 11.09.2026
+numbers_seen = []
+while True:
+    ask = input("Enter number")
+    if ask == "":
+        break
+    else:
+        convert = int(ask)
+        numbers_seen.append(convert)
+if numbers_seen:
+    smallest = min(numbers_seen)
+    largest = max(numbers_seen)
+    print(f"Smallest: {smallest}, Largest: {largest}")
+else:
+    print("No numbers were entered.")

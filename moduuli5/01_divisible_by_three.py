@@ -11,3 +11,10 @@
 #    -> if yes, print it
 # 4. IMPORTANT: increase number by 1 at the end of every loop pass
 #    (number = number + 1). If you forget this, the loop runs forever!
+#11:54 11.09.2026
+
+number = 1
+while number <= 1000:
+    if number % 3 == 0:
+        print(number)
+    number += 1

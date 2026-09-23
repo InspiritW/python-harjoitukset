@@ -24,3 +24,15 @@
 #    (Notice the order matters here! Try to think through why.)
 # 4. Print a clear message either way, e.g. "2024 is a leap year."
 #    or "1900 is not a leap year."
+enter_year = input("Enter a year. ")
+year_entered = int(enter_year)
+def leap_year():
+        if year_entered % 400 == 0:
+            print("Leap year!")
+        elif year_entered % 100 == 0:
+            print("Not a leap year!")
+        elif year_entered % 4 == 0:
+            print("Leap year!")
+        else:
+            print("Not a leap year!")
+leap_year()

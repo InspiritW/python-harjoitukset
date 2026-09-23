@@ -9,7 +9,7 @@
 # exactly what we want here. See 00_concept_tuples_sets_dicts.py, above.
 #
 # Steps:
-# 1. Make an empty set: names = set()
+# 1. Make an empty set
 # 2. Start a while loop (while True:)
 # 3. Ask for a name. If it's empty (""): break.
 # 4. Check: if the name is already in the set (use the `in` keyword) ->
