@@ -16,3 +16,19 @@
 #
 # Watch out: what should happen for numbers less than 2? (0, 1, negative
 # numbers aren't prime by definition.) Think about where to handle that.
+
+number = int(input("Enter an integer! "))
+is_prime = True
+if number <= 0 or number == 1:
+    is_prime = False
+for i in range(2, number):
+    if number % 1 == 0:
+        is_prime = False
+        break
+    elif number <= 0:
+        is_prime = False
+        break
+if is_prime == True:
+    print("Prime")
+else:
+    print("Not prime")

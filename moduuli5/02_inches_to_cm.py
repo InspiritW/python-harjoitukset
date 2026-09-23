@@ -12,3 +12,12 @@
 #    to exit the loop.
 # 4. Otherwise: calculate cm = inches * 2.54 and print the result.
 # 5. Loop goes back to step 2 automatically.
+#11:58 11.09.2026
+while True:
+    inches_ask = float(input("Enter a number of inches. "))
+    if inches_ask < 0:
+        print("Goodbye!")
+        break
+    else:
+        cm = inches_ask * 2.54
+        print(cm)

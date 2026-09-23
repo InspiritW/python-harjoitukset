@@ -1,0 +1,5 @@
+Welcome to Codebreaker!
+
+You are a codebreaker who has found a hidden tower of riddles.
+Every riddle you solve earns you coins.
+Spend your coins in the shop on potions, and see how far you can get.

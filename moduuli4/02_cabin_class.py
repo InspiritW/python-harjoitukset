@@ -7,9 +7,9 @@
 # Elif cabin_class is "C": print "Windowless cabin below the car deck"
 # Else: print "Unknown cabin class"
 
-cabin_class = input("Enter a cabin class ")
+cabin_class = input("Enter a cabin class ").upper()
 if cabin_class not in ["LUX", "A", "B", "C"]:
-    print("HLUX,A,B,C")
+    print("LUX,A,B,C")
 if cabin_class == "LUX":
     print("Upper-deck cabin with a balcony")
 elif cabin_class == "A":
