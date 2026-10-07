@@ -3,3 +3,7 @@ Welcome to Codebreaker!
 You are a codebreaker who has found a hidden tower of riddles.
 Every riddle you solve earns you coins.
 Spend your coins in the shop on potions, and see how far you can get.
+Don't throw anything away: explore the tower, find old scraps and recycle them for coins.
+
+Your goal is to crack the final code and open the tower door.
+There are three ways to do it: be a riddle master, a clever merchant, or a recycler.
