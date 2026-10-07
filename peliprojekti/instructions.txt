@@ -1,0 +1,15 @@
+HOW TO PLAY
+Choose an option from the menu by typing its number.
+1. Play: solve the next riddle. Using a hint gives fewer coins.
+2. Progress: see which riddles you have solved.
+3. Quit: save the game and leave.
+4. Shop: spend coins on potions. Type 'hint' in a riddle to use a Hint Potion (no coin penalty) or 'answer' to use an Answer Potion.
+5. Inventory: see everything you are carrying.
+6. Open the tower door: finish the game once you have completed a route.
+7. Recycle: turn a potion bottle or scrap into 1 coin.
+8. Explore the tower: visit the Attic, Basement and Garden to find scraps.
+
+Routes to open the tower door:
+- Riddle master: solve all 3 riddles.
+- Merchant: own both the Hint Potion and the Answer Potion (don't use them up!).
+- Recycler: find the 3 scraps in the tower and recycle them (no riddles needed).
