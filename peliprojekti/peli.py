@@ -1,6 +1,7 @@
 # 18:15 done, 01.09.2026
 # 3. 18:24 done, 10.09.2026
 # 4 and # 5 16:02 done, 23.09.2026
+# projekti valmis 19:39, 07.10.2026
 
 import json
 import os
